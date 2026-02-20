@@ -15,6 +15,8 @@ Requirement Decomposition
 
 Grey Area Identification
 
+
+
 🎯 Objectives
 
 Decompose and visualize requirements
@@ -27,7 +29,10 @@ Design structured test cases
 
 Validate calculation logic for trip duration and pricing
 
+
+
 🧠 Requirement Analysis & Visualization
+
 1️⃣ Mind Map – “Add Driver’s License”
 
 A visual breakdown of:
@@ -112,6 +117,8 @@ Logical dependency validation
 
 📌 Test cases written in structured format in Excel.
 
+
+
 🛠 Tools Used
 
 draw.io – Visual modeling (mind map & flow diagram)
@@ -119,6 +126,8 @@ draw.io – Visual modeling (mind map & flow diagram)
 Excel / Google Sheets – Test case design & equivalence classes
 
 Google Docs – Documentation & submission
+
+
 
 🔎 Key QA Skills Demonstrated
 
