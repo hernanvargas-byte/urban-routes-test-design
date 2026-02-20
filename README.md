@@ -1,5 +1,5 @@
 # 🚗 QA Project – Urban Routes (Car Sharing Function)
-###📌 Project Overview
+### 📌 Project Overview
 
 This project consists of the analysis, decomposition, and test design for the Car Sharing feature of the Urban Routes application.
 
@@ -17,7 +17,7 @@ Grey Area Identification
 
 
 
-###🎯 Objectives
+### 🎯 Objectives
 
 Decompose and visualize requirements
 
@@ -31,11 +31,11 @@ Validate calculation logic for trip duration and pricing
 
 
 
-###🧠 Requirement Analysis & Visualization
+### 🧠 Requirement Analysis & Visualization
 
-####1️⃣ Mind Map – “Add Driver’s License”
+#### 1️⃣ Mind Map – “Add Driver’s License”
 
-#####A visual breakdown of:
+##### A visual breakdown of:
 
 Interface requirements
 
@@ -45,18 +45,18 @@ Valid and invalid input scenarios
 
 Identified grey areas in the requirements
 
-#####📌 Tool used: draw.io
-#####📄 Delivered as PDF
+##### 📌 Tool used: draw.io
+##### 📄 Delivered as PDF
 
-####2️⃣ Equivalence Classes & Boundary Values
+#### 2️⃣ Equivalence Classes & Boundary Values
 
-#####Defined for:
+##### Defined for:
 
 “First Name”
 
 “Last Name”
 
-#####Included:
+##### Included:
 
 Positive scenarios
 
@@ -66,19 +66,19 @@ Boundary values
 
 Selected representative test values
 
-#####📌 Technique applied:
+##### 📌 Technique applied:
 
 Equivalence Partitioning
 
 Boundary Value Analysis
 
-#####📊 Tool used: Excel (Google Sheets template)
+##### 📊 Tool used: Excel (Google Sheets template)
 
-####3️⃣ Flow Diagram – Vehicle Speed Selection Logic
+#### 3️⃣ Flow Diagram – Vehicle Speed Selection Logic
 
 Designed a flow diagram to represent the logic for selecting average vehicle speed based on departure time.
 
-#####The diagram models:
+##### The diagram models:
 
 Time intervals
 
@@ -88,10 +88,10 @@ Logical branching
 
 Output speed selection
 
-#####📌 Tool used: draw.io
-#####📄 Delivered as PDF
+##### 📌 Tool used: draw.io
+##### 📄 Delivered as PDF
 
-####4️⃣ Test Design – Trip Duration & Price Calculation
+#### 4️⃣ Test Design – Trip Duration & Price Calculation
 
 Designed test cases to validate:
 
@@ -99,7 +99,7 @@ Trip duration calculation
 
 Price calculation
 
-#####Dependency on:
+##### Dependency on:
 
 Distance
 
@@ -107,7 +107,7 @@ Departure time
 
 Selected speed logic
 
-#####Special validation included:
+##### Special validation included:
 
 Distance = 0 (edge case)
 
@@ -115,11 +115,11 @@ Multiple time intervals
 
 Logical dependency validation
 
-#####📌 Test cases written in structured format in Excel.
+##### 📌 Test cases written in structured format in Excel.
 
 
 
-###🛠 Tools Used
+### 🛠 Tools Used
 
 draw.io – Visual modeling (mind map & flow diagram)
 
@@ -129,7 +129,7 @@ Google Docs – Documentation & submission
 
 
 
-###🔎 Key QA Skills Demonstrated
+### 🔎 Key QA Skills Demonstrated
 
 Requirement analysis
 
