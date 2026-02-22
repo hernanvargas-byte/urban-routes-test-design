@@ -1,129 +1,121 @@
-# 🚗 Proyecto QA – Urban Routes (Función Car Sharing)
-📌 Descripción del Proyecto
+# 🚗 Urban Routes – Análisis de Requisitos y Diseño de Casos de Prueba
 
-Este proyecto consiste en el análisis, descomposición y diseño de pruebas para la funcionalidad Car Sharing de la aplicación Urban Routes.
+### 📌 Descripción del Proyecto
 
-El objetivo principal fue transformar requisitos funcionales en documentación estructurada de QA, aplicando técnicas profesionales de diseño de pruebas y modelado lógico.
+Este proyecto consistió en el análisis, descomposición y diseño de pruebas para la funcionalidad Car Sharing de la aplicación Urban Routes.
 
-🎯 Objetivos del Proyecto
+El objetivo principal fue transformar requisitos funcionales en documentación estructurada de QA, aplicando técnicas profesionales de diseño de pruebas como:
 
-Analizar y descomponer requisitos funcionales
+- Partición en Clases de Equivalencia  
+- Análisis de Valores Límite  
+- Modelado con Diagramas de Flujo  
+- Descomposición de Requisitos  
+- Identificación de Zonas Grises  
 
-Visualizar requisitos mediante herramientas gráficas
+---
 
-Identificar zonas grises (ambigüedades)
+### 🎯 Objetivos
 
-Definir clases de equivalencia y valores límite
+- Descomponer y visualizar requisitos  
+- Identificar objetos de prueba  
+- Detectar y documentar ambigüedades (“zonas grises”)  
+- Diseñar casos de prueba estructurados  
+- Validar la lógica de cálculo de duración y precio del viaje  
 
-Diseñar casos de prueba estructurados
+---
 
-Validar la lógica de cálculo de duración y precio de viaje
+### 🧠 Análisis y Visualización de Requisitos
 
-🧠 Análisis y Modelado de Requisitos
-1️⃣ Mapa Mental – “Agregar Licencia de Conducir”
+#### 1️⃣ Mapa Mental – “Agregar Licencia de Conducir”
 
-Se diseñó un mapa mental para representar:
+##### Desglose visual de:
 
-Requisitos de interfaz
+- Requisitos de interfaz  
+- Comportamiento funcional  
+- Escenarios válidos e inválidos  
+- Zonas grises identificadas en los requisitos  
 
-Requisitos de funcionalidad
+📌 Herramienta utilizada: draw.io  
+📄 Entregado en formato PDF  
 
-Escenarios positivos y negativos
+---
 
-Identificación de zonas grises en los requisitos
+#### 2️⃣ Clases de Equivalencia y Valores Límite
 
-📌 Herramienta utilizada: draw.io
-📄 Entregado en formato PDF
+##### Definidas para:
 
-2️⃣ Clases de Equivalencia y Valores Límite
+- “Nombre”  
+- “Apellido”  
 
-Definidas para los campos:
+##### Incluyeron:
 
-Nombre
-
-Apellido
-
-Se incluyeron:
-
-Escenarios positivos
-
-Escenarios negativos
-
-Valores límite
-
-Selección de valores representativos por clase
+- Escenarios positivos  
+- Escenarios negativos  
+- Valores límite  
+- Selección de valores representativos  
 
 📌 Técnicas aplicadas:
 
-Partición en Clases de Equivalencia
+- Partición en Clases de Equivalencia  
+- Análisis de Valores Límite  
 
-Análisis de Valores Límite
+📊 Herramienta utilizada: Excel (Plantilla en Google Sheets)  
 
-📊 Herramienta utilizada: Excel / Google Sheets
+---
 
-3️⃣ Diagrama de Flujo – Selección de Velocidad
+#### 3️⃣ Diagrama de Flujo – Lógica de Selección de Velocidad
 
-Se modeló la lógica para determinar la velocidad promedio del vehículo según la hora de salida.
+Se diseñó un diagrama de flujo para representar la lógica de selección de la velocidad promedio del vehículo según la hora de salida.
 
-El diagrama representa:
+##### El diagrama modela:
 
-Intervalos horarios
+- Intervalos horarios  
+- Puntos de decisión  
+- Ramificaciones lógicas  
+- Selección de velocidad resultante  
 
-Puntos de decisión
+📌 Herramienta utilizada: draw.io  
+📄 Entregado en formato PDF  
 
-Ramificaciones lógicas
+---
 
-Resultado esperado de velocidad
-
-📌 Herramienta utilizada: draw.io
-📄 Entregado en formato PDF
-
-4️⃣ Diseño de Casos de Prueba – Cálculo de Duración y Precio
+#### 4️⃣ Diseño de Casos de Prueba – Cálculo de Duración y Precio del Viaje
 
 Se diseñaron casos de prueba para validar:
 
-Cálculo de duración del viaje
+- Cálculo de duración del viaje  
+- Cálculo de precio  
 
-Cálculo de precio
+##### Dependencias consideradas:
 
-Dependencia de:
+- Distancia  
+- Hora de salida  
+- Lógica de velocidad seleccionada  
 
-Distancia
+##### Validaciones especiales incluidas:
 
-Hora de salida
+- Distancia = 0 (caso límite)  
+- Múltiples intervalos horarios  
+- Validación de dependencias lógicas  
 
-Velocidad seleccionada
+📌 Casos documentados en formato estructurado en Excel  
 
-Se validaron escenarios especiales como:
+---
 
-Distancia = 0 (caso límite)
+### 🛠 Herramientas Utilizadas
 
-Diferentes intervalos horarios
+- draw.io – Modelado visual (mapa mental y diagrama de flujo)  
+- Excel / Google Sheets – Diseño de casos y clases de equivalencia  
+- Google Docs – Documentación y entrega  
 
-Correcta aplicación de fórmulas
+---
 
-📊 Casos documentados en Excel.
+### 🔎 Competencias QA Demostradas
 
-🛠 Herramientas Utilizadas
-
-draw.io – Modelado visual
-
-Excel / Google Sheets – Diseño de pruebas
-
-Google Docs – Documentación
-
-🔎 Competencias Demostradas
-
-Análisis de requisitos
-
-Identificación de ambigüedades
-
-Diseño estructurado de pruebas
-
-Modelado lógico de comportamiento
-
-Validación de cálculos
-
-Documentación profesional
-
+- Análisis de requisitos  
+- Identificación de ambigüedades  
+- Diseño estructurado de pruebas  
+- Modelado lógico del comportamiento del sistema  
+- Validación de cálculos  
+- Análisis de casos límite  
 Pensamiento crítico orientado a prevención de defectos
